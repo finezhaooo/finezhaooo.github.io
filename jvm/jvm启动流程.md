@@ -50,7 +50,7 @@ Java Launcher Interface 是 Java 虚拟机（JVM）提供的一组接口，用�
 
 ```c_cpp
 JVMInit(InvocationFunctions* ifn, jlong threadStackSize,int argc, char **argv,int mode, char *what, int ret){ 
-  // 调用ContinueInNewThread
+    // 调用ContinueInNewThread
     return ContinueInNewThread(ifn, threadStackSize, argc, argv, mode, what, ret);
 }
 ```
