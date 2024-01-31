@@ -1,4 +1,4 @@
 # topics
 
 [JVM](./jvm/index.md)  
-[redis](./redis/index.md)
+[Redis](./Redis/index.md)
